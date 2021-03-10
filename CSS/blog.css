@@ -1,0 +1,63 @@
+@@import "imgRedonda.css";
+#blog h3, h4, h5{
+  text-align: center;
+}
+#blog h5{
+  font-family: 'Comfortaa';
+  color: skyblue;
+  text-shadow: 1px 1px 2px blue;
+  font-size: 18px;
+}
+
+#blog .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#blogC h3, h4, h5{
+  text-align: center;
+}
+#blogC h5{
+  font-family: 'Comfortaa';
+  color: skyblue;
+  text-shadow: 1px 1px 2px blue;
+  font-size: 18px;
+}
+
+#blogC .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#blog article{
+  margin: 100px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+#blogC article{
+  margin: 160px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#blogC img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+#blog img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
